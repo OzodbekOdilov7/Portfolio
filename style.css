@@ -62,7 +62,7 @@ body{
 .home {
     height: 100vh;
     background: #030305;
-    background: url('black.jpg') no-repeat;
+    /* background: url('black.jpg') no-repeat; */
     background-size: cover;
     background-position: center;
     display: flex;
@@ -280,23 +280,23 @@ body{
     pointer-events: none;
 }
 
-/* .home-imgHover::after {
+.home-imgHover::after {
     content: '';
     position: absolute;
     top: 0;
     right: 0;
     width: 120%;
     height: 100%;
-    background: #081b29;
+    background: #030305;
     animation: showRight 1s forwards;
     animation-delay: 3s;
     z-index: 100;
-} */
+}
 
-/* .home-imgHover:hover {
-    background: #081b29;
+.home-imgHover:hover {
+    background: #030305;
     opacity: .8;
-} */
+}
 
 /* KEYFRAMES ANIMATION */
 
